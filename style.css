@@ -1,0 +1,578 @@
+* {
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+}
+
+.vl {
+    border-left: 1px solid #999;
+    height: 80px;
+}
+
+.hl{
+    border-top: 1px solid #999;
+    width: 100%;
+}
+
+/* button */
+
+.btn_primary {
+
+    padding: 12px 24px 12px 20px;
+    margin-right: 12px;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid black;
+}
+
+.btn_primary a {
+    color: white;
+}
+
+.btn_primary span {
+    font-size: 14px;
+}
+
+.btn_secondary {
+    padding: 12px 24px 12px 20px;
+    margin-right: 12px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background-color: transparent;
+    border: 1px solid #999 ;
+
+}
+
+.btn_secondary a {
+    color: black;
+}
+
+
+
+
+
+/* navbar */
+
+nav {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 2vh 8vw;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+
+
+
+
+/* hero */
+
+.hero {
+    box-sizing: border-box;
+    width: 100vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 14vh;
+
+    background-image: url(/asset/bg_hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content h1 {
+    margin-top: 12vh;
+    font-size: 48px;
+    width: 500px;
+}
+
+.hero-content p {
+    width: 420px;
+    line-height: 160%;
+    color: #666;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.highlights {
+    margin-top: 14vh;
+    display: flex;
+    gap: 48px;
+}
+
+.highlight {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.highlight img {
+    height: 40px;
+}
+
+
+.highlight h3 {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.highlight h4 {
+    font-size: 14px;
+    color: #999;
+}
+
+
+
+
+
+/* mission */
+
+.mission {
+    padding: 80px 2vw;
+
+}
+
+.misi-container {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    padding: 6vh 6vw;
+
+    background-image: url(/asset/bg_1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    border-radius: 24px;
+}
+
+.misi-container h3 {
+    font-size: 28px;
+    color: white;
+    width: 180px;
+    line-height: 150%;
+}
+
+.misi-container p {
+    color: #bbb;
+    width: 400px;
+    font-weight: 200;
+}
+
+
+
+
+
+/* Impact */
+
+.impact {
+    padding: 0px 8vw;
+}
+
+.impact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.impact-container h3 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.impact-container .row {
+    display: flex;
+    gap: 16px;
+
+}
+
+.impact-container .row .card {
+    flex: 1;
+    height: 23vh;
+    background-image: url(/asset/card-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 14vh 2vw 2vh 2vw;
+
+}
+
+.impact-container .row .card h3{
+    font-size: 3em;
+    color: #043D2C;
+    margin-bottom: 8px;
+}
+
+.impact-container .row .card h4 {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.impact-container .row .card p {
+    color: #666;
+}
+
+.impact-container .row .card-donasi {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    background-image: url(/asset/card.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 16vh 2vw 0vh 2vw;
+}
+
+.impact-container .row .card-donasi span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #C2EA66;
+    margin-top: 7vh;
+    margin-bottom: 16px;
+}
+
+.impact-container .row .card-donasi button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Quote */
+
+.quote {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 80px 2vw 0 2vw;
+    position: absolute;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    padding: 10vh 6vw;
+    color: white;
+
+    background-image: url(/asset/bg_2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    border-radius: 24px;
+}
+
+.quote-container h4 {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #C2EA66;
+    color: #043D2C;
+    padding: 8px 16px;
+    border-radius: 100px;
+}
+
+.quote-container h3 {
+    width: 60vw;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 180%;
+    text-align: center;
+}
+
+
+
+
+
+/* Relawan */
+
+.relawan {
+    padding: 84vh 8vw 0 8vw;
+
+    background-image: url(/asset/bg_countingnumber.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.relawan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relawan-container h1 {
+    font-size: 7rem;
+    color: #043D2C;
+    margin-bottom: 32px;
+}
+
+.relawan-container h3 {
+    font-size: 32px;
+}
+
+
+
+
+.relawan-container .row {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    margin-top: 240px;
+}
+
+.relawan-container .row .card {
+    flex: 1;
+    background-color: white;
+    border: 2px solid #eee;
+    border-radius: 24px;
+    padding: 12px;
+}
+
+.relawan-container .row .card img {
+    width: 100%;
+}
+
+.relawan-container .row .card .detail {
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.relawan-container .row .card .detail h3 {
+    font-size: 20px;
+}
+
+.relawan-container .row .card .detail h4 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666;
+}
+
+.relawan-container .row .card .detail .sub-detail {
+    display: flex;
+}
+
+.relawan-container .row .card .detail .sub-detail .wrap {
+    flex: 1;
+}
+
+.relawan-container .row .card .detail .sub-detail .jml {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.relawan-container .row .card .detail .sub-detail .jml img {
+    width: 20px;
+}
+
+.relawan-container .row .card .detail .sub-detail .jml h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.relawan-container .row .card .detail .sub-detail .tgl {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: end;
+}
+
+.relawan-container .row .card .detail .sub-detail .tgl img {
+    width: 20px;
+}
+
+.relawan-container .row .card .detail .sub-detail .tgl h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.relawan-container .row .card button {
+    border-radius: 12px;
+    width: 100%;
+    justify-content: center;
+    background-color: #043D2C;
+    color: #C2EA66;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.relawan-container .bottom {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    align-items: center;
+}
+
+.relawan-container .bottom button {
+    font-size: 16px;
+    width: 220px;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+
+
+/* Testimoni */
+
+.testimoni {
+    padding: 12px 8vw 6vh 8vw;
+    margin-top: 64px;
+
+    background-image: url(/asset/bg_testimoni.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testi-container h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.testi-container .slider {
+    display: flex;
+    gap: 24px;
+}
+
+.testi-container .slider .card {
+    display: flex;
+    gap: 24px;
+    width: fit-content;
+    flex-direction: row;
+    padding: 12px;
+    border-radius: 24px;
+
+    background-image: url(/asset/testi-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testi-container .slider .card img {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.testi-container .slider .card .detail {
+    padding: 24px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testi-container .slider .card .detail h5 {
+    padding: 8px 12px;
+    background-color: white;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+}
+
+.testi-container .slider .card .detail span {
+    font-size: 24px;
+    width: 640px;
+    height: 200px;
+    line-height: 160%;
+}
+
+.testi-container .slider .card .detail .id h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.testi-container .slider .card .detail .id h4 {
+    font-size: 14px;
+    color: #666;
+    font-weight: lighter;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
+    padding: 32px 2vw;
+}
+
+.footer-container {
+    
+}
+
+.footer-container .trusted {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .trusted h4 {
+    text-align: center;
+    font-weight: lighter;
+    color: #666;
+}
+
+.footer-container .trusted .img-group {
+    display: flex;
+    gap: 48px;
+    opacity: 50%;
+}
